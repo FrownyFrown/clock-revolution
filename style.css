@@ -1,0 +1,46 @@
+@font-face { font-family: 'LAB디지털'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'NeoDunggeunmo'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff'); font-weight: normal; font-style: normal; }
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    min-height: 100vh;
+    background:  #031321;
+}
+/* h6
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform:  uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: hidden;
+    transition: 0.1s;
+} */
+
+h6
+{
+    -ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;
+    font-family: 'LAB디지털';
+    /* font-family: 'NeoDunggeunmo'; 레트로 느낌 폰트? */
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    /* color: #7a3055;
+    background: #f52c63;
+    box-shadow: 0 0 10px #f52c63, 0 0 40px #f52c63, 0 0 80px #f52c63; */
+    position: relative;
+    display: inline-block;
+    box-sizing: 300px;
+    text-transform:  uppercase;
+    letter-spacing: 4px;
+    font-size: 130px;
+    transition: 0.1s;
+    transition-delay: 0s;
+}
+ 
